@@ -11,8 +11,8 @@ Dur = 100000 # Set Duration To 1000 ms == 1 second
 driver = webdriver.Firefox()
 url = 'http://dangkyhoc.daotao.vnu.edu.vn/dang-nhap'
 url2 = 'http://dangkyhoc.daotao.vnu.edu.vn/dang-ky-mon-hoc-nganh-1/'
-username = 15020907
-password = 'deadp00l'
+username = 
+password = ''
 while(True):
     driver.get(url)
     usernameInput = driver.find_element_by_id('LoginName')
