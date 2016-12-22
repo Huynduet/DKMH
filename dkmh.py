@@ -4,14 +4,11 @@ from multiprocessing import Pool
 import re 	#regex
 import sys 	#input
 
-#require
 urlLogin = 'http://dangkyhoc.vnu.edu.vn/dang-nhap'
 urlSelect = 'http://dangkyhoc.vnu.edu.vn/chon-mon-hoc/' # + rowindex + '/1/1'
 urlConfirm = 'http://dangkyhoc.vnu.edu.vn/xac-nhan-dang-ky/1'
 urlSchoolList = 'http://dangkyhoc.vnu.edu.vn/danh-sach-mon-hoc/1/1'
 urlYourList = 'http://dangkyhoc.vnu.edu.vn/danh-sach-mon-hoc-da-dang-ky/1'
-
-#non-require
 urlPageReg = 'http://dangkyhoc.vnu.edu.vn/dang-ky-mon-hoc-nganh-1'
 # urlCheck = 'http://dangkyhoc.vnu.edu.vn/kiem-tra-tien-quyet/' # + id + '/1'
 
